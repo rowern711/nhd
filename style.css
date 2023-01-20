@@ -5,12 +5,16 @@ body{
 body::-webkit-scrollbar{
   display:none;
 }
+p{
+  margin:0vh;
+}
 #page-wrapper{
   position:absolute;
-  top:0px;
-  bottom:0px;
-  left:0px;
-  right:0px;
+  top:0
+    ;
+  bottom:0vh;
+  left:0vh;
+  right:0vh;
 }
 #header-wrapper{
   width:100%;
@@ -35,7 +39,7 @@ body::-webkit-scrollbar{
 }
 .nav{
   width:100%;
-  box-shadow:0px 0.2vh 0.5vh #8c8c8c;
+  box-shadow:0vh 0.2vh 0.5vh #8c8c8c;
 }
 .nav-link{
   width:calc(100%/7);
