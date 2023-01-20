@@ -22,6 +22,7 @@ p{
 }
 .sticky{
   position:fixed;
+  top:0vh;
 }
 #page-wrapper{
   position:absolute;
