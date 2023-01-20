@@ -27,7 +27,7 @@ body::-webkit-scrollbar{
   background:rgba(102, 179, 255, 0.5);
 }
 #header-title a{
-  text-decoration: none;
+  text-decoration:none;
   color:black;
 }
 #header-title a:hover{
@@ -52,7 +52,7 @@ body::-webkit-scrollbar{
   border:0.2vh solid black;
 }
 .nav-link:hover{
-  background:#e6e6e6;
+  background:#f2f2f2;
   color:#000000;
   opacity:0.9;
 }
