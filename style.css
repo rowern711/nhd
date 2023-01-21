@@ -35,6 +35,9 @@ p{
   right:0vh;
 }
 #header-wrapper{
+ background-image: url("https://site.nhd.org/10733515/uploaded/fat-man-on-tinian.jpg");
+}
+#header-wrapper{
   width:100%;
   margin:0vh auto 0vh auto;
 }
