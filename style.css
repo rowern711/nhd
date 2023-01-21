@@ -24,6 +24,9 @@ p{
   position:fixed;
   top:0vh;
 }
+.sticky + #info-wrapper{
+  margin-top:24vh;
+}
 #page-wrapper{
   position:absolute;
   top:0vh;
