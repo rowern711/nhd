@@ -21,6 +21,12 @@ img{
   padding:0.7vh;
   border-radius:1.6vh;
 }
+img{
+  width:100%;
+  border:0.2vh solid black;
+  padding:0.7vh;
+  border-radius:1.6vh;
+}
 #script-fixed{
   display:none;
   width:0vh;
@@ -133,15 +139,14 @@ img{
   font-size:3.6vh;
   margin-bottom:0.65vh;
 }
-.left-cell{
-  padding-right:1.5vh;
-}
 .info-border{
-  width:73% !important;
+  width:65% !important;
 }
 .info-border>#website-info{
   padding:2.3vh;
   border:0.2vh solid black;
   border-radius:2vh;
 }
-
+.left-cell{
+  padding-right:1.5vh;
+}
