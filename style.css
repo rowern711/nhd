@@ -34,6 +34,7 @@ p{
   left:0vh;
   right:0vh;
   background-image: url("https://site.nhd.org/10733515/uploaded/texture.jfif");
+  min-height: 100vh;
 }
 #header-wrapper{
   width:100%;
