@@ -30,9 +30,10 @@ p{
 #page-wrapper{
   position:absolute;
   top:0vh;
-  bottom:0vh;
+  /*bottom:0vh;*/
   left:0vh;
   right:0vh;
+  background-image: url("https://site.nhd.org/10733515/uploaded/texture.jfif");
 }
 #header-wrapper{
   width:100%;
