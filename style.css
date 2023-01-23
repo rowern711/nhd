@@ -136,3 +136,12 @@ img{
 .left-cell{
   padding-right:1.5vh;
 }
+.info-border{
+  width:73% !important;
+}
+.info-border>#website-info{
+  padding:2.3vh;
+  border:0.2vh solid black;
+  border-radius:2vh;
+}
+
