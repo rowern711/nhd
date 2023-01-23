@@ -17,7 +17,7 @@ p{
 }
 img{
   width:100%;
-  border:1px solid black;
+  border:0.2vh solid black;
   padding:0.7vh;
   border-radius:1.6vh;
 }
