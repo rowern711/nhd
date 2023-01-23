@@ -103,6 +103,10 @@ img{
   background:#4d4d4d;
   color:#f2f2f2;
 }
+
+.row>.cell{
+  padding:0;
+}
 .img-caption{
     text-align: center;
     font-size: 2vh;
@@ -126,9 +130,6 @@ img{
   text-align:center;
   font-size:2.3vh;
   margin-top:1.3vh;
-}
-.row>.cell{
-  padding:0;
 }
 .section-title{
   font-size:3.6vh;
