@@ -134,9 +134,10 @@ img{
 
 }
 .section-title{
-  font-size:3.6vh;
+  font-size:4vh;
   margin-bottom:0.65vh;
-    display:block;
+  margin-bottom:1vh;
+  display:block;
 }
 .info-border{
   width:65% !important;
@@ -148,9 +149,6 @@ img{
 }
 .left-cell{
   padding-right:2.2vh;
-}
-.section-title{
-  margin-bottom:1vh;
 }
 /*.section-border{
   padding:2.3vh;
