@@ -152,11 +152,11 @@ img{
 .section-title{
   margin-bottom:1vh;
 }
-.section-border{
+/*.section-border{
   padding:2.3vh;
   border:0.2vh solid black;
   border-radius:2vh;
-}
+}*/
 .full-wrapper{
   display:flex;
   flex-direction:column;
