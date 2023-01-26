@@ -184,3 +184,10 @@ img, video{
  /*opacity: 0.6;*/
 }
 
+.false-caption{
+  user-select:none;
+  text-align:center;
+  font-size:1.75vh;
+  margin-top:1.3vh;
+  color:transparent;
+}
