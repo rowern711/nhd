@@ -45,6 +45,7 @@ img, video{
 #header-wrapper{
   width:100%;
   margin:0vh auto 0vh auto;
+  z-index:100;
 }
 #header-title{
   font-family:'Kanit', sans-serif;
