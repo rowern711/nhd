@@ -22,6 +22,9 @@ img, video{
   padding:0.7vh;
   border-radius:1.6vh;
 }
+br{
+  user-select:none;
+}
 #script-fixed{
   display:none;
   width:0vh;
