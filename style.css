@@ -1,4 +1,13 @@
 #header-wrapper,img,.img-caption,.quote,iframe,#web-stats{user-select: none;}
+#header-wrapper::before{
+  content:"Authorized Eyes Only";
+  color:red;
+  text-align:center;
+  position:fixed;
+  padding:2vh;
+  font-size:3vh;
+}
+
 
 body{
   -ms-overflow-style:none;
