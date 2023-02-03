@@ -191,7 +191,9 @@ br{
   .nav-link:first-child{
 	width:100%;
   }
-	img{  max-height: 100%;}
+	img{  
+max-height: none;
+	}
 }
 @media only screen and (max-width: 745px){
   .nav-link{
