@@ -1,15 +1,4 @@
 #header-wrapper,img,.img-caption,.quote,iframe,#web-stats{user-select: none;}
-/*#header-wrapper::before{
-  content:"Authorized Eyes Only";
-  color:red;
-  text-align:center;
-  position:fixed;
-  padding:3vh;
-  font-size: 3vh;
-  right:0;
-}*/
-
-
 body{
   -ms-overflow-style:none;
   scrollbar-width:none;
@@ -33,6 +22,7 @@ img, video{
   border:0.2vh solid black;
   padding:0.7vh;
   border-radius:1.6vh;
+  max-height: 75vh;
 }
 br{
   user-select:none;
@@ -52,7 +42,6 @@ br{
 #page-wrapper{
   position:absolute;
   top:0vh;
-  /*bottom:0vh;*/
   left:0vh;
   right:0vh;
   min-height: 100vh;
@@ -69,8 +58,6 @@ br{
   margin:0vh;
   text-align:center;
   padding:3vh;
-  /* text-shadow:0.1vh 0.1vh #f2f2f2; */
-  /*background:rgba(102, 179, 255, 0.5);*/
   background:#b8dcfc;
 }
 #header-title a{
@@ -111,10 +98,8 @@ br{
   margin-bottom:3.25vh;
 }
 #website-info{
-  /*font-size:2.5vh;*/
   text-align:left;
   font-size:2.85vh;
-  /*padding-bottom:3.1vh;*/
 }
 #current-link{
   background:#4d4d4d;
@@ -167,11 +152,6 @@ br{
 .left-cell{
   padding-right:2.2vh;
 }
-/*.section-border{
-  padding:2.3vh;
-  border:0.2vh solid black;
-  border-radius:2vh;
-}*/
 .full-wrapper{
   display:flex;
   flex-direction:column;
@@ -197,14 +177,44 @@ br{
 .quote-atr{
   text-align:right;
 }
-.quote-src{
- /*opacity: 0.6;*/
-}
-
 .false-caption{
   user-select:none;
   text-align:center;
   font-size:1.75vh;
   margin-top:1.3vh;
   color:transparent;
+}
+@media only screen and (max-width: 940px){
+  .nav-link{
+	width:calc(100%/3);
+  }
+  .nav-link:first-child{
+	width:100%;
+  }
+}
+@media only screen and (max-width: 745px){
+  .nav-link{
+	width:calc(100%/2);
+  }
+  #info-wrapper{
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:1vh;
+	padding-right:1vh;
+  }
+  .row{
+	display:block;
+  }
+  .sticky{
+	position:static;
+  }
+  .sticky + #info-wrapper{
+	margin-top:0vh;
+  }
+}
+@media only screen and (max-width: 230px){
+  .nav-link{
+	width:100%;
+  }
 }
