@@ -211,7 +211,8 @@ br{
   }
   .sticky + #info-wrapper{
 	margin-top:0vh;
-  }
+	}
+	.cell {padding:0!important;}
 }
 @media only screen and (max-width: 230px){
   .nav-link{
