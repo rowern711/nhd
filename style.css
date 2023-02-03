@@ -212,7 +212,7 @@ br{
   .sticky + #info-wrapper{
 	margin-top:0vh;
   }
-  .cell {
+  .row > .cell {
 	  padding-left:2.2vh!important;
 	  padding-right:2.2vh!important;
 	}
