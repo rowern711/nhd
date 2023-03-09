@@ -1,3 +1,4 @@
+#header-wrapper, .img-caption, .quote, img{user-select:none;}
 body{
   -ms-overflow-style:none;
   scrollbar-width:none;
