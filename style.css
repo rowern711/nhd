@@ -16,7 +16,7 @@ body::-webkit-scrollbar{
 p{
   margin:0vh;
   line-height: 215%;
-  text-shadow: grey 0vh 0vh 0.12vh;
+  text-shadow: grey 0vh 0vh 0.01vh;
 }
 img, video{
   width:100%;
