@@ -60,6 +60,12 @@ br{
   text-align:center;
   padding:3vh;
   background:#b8dcfc;
+  background-repeat:no-repeat;
+  background-position:center bottom;
+  background-attachment:scroll;
+  background-size:cover;
+  background-image:url('../10733515/uploaded/Untitled_design_5_.png');
+
 }
 #header-title a{
   text-decoration:none;
