@@ -34,13 +34,13 @@ br{
   width:0vh;
   height:0vh;
 }
-.sticky{
+/*.sticky{
   position:fixed;
   top:0vh;
 }
 .sticky + #info-wrapper{
   margin-top: 22.2vh;
-}
+}*/
 #page-wrapper{
   position:absolute;
   top:0vh;
