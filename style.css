@@ -72,7 +72,7 @@ br{
 #header-title a{
   text-decoration:none;
   color:black;
-  text-shadow: 0vh 0vh 0.4vh grey;
+  text-shadow: 0vh 0vh 2vh #b8dcfc;
 }
 #header-title a:hover{
  cursor: pointer;
