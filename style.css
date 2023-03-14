@@ -19,12 +19,10 @@ p{
   text-shadow: grey 0vh 0vh 0.01vh;
 }
 img, video{
-  width:100%;
-  border:0.2vh solid black;
-  padding:0.3vh;
-  border-radius:1.6vh;
+  width: 100%;
+  border-radius: 1.6vh;
   max-height: 75vh;
-  box-shadow: 0vh 0vh 0.8vh grey;
+  box-shadow: 0vh 0vh 1.8vh grey;
 }
 br{
   user-select:none;
@@ -50,7 +48,6 @@ br{
 .sticky + #info-wrapper{
   margin-top:9.7vh;
 }
-
 #page-wrapper{
   position:absolute;
   top:0vh;
@@ -152,8 +149,7 @@ br{
   text-align:center;
   font-size:2.3vh;
   margin-top:1.3vh;
-    font-size:1.75vh;
-
+  font-size:1.75vh;
 }
 .section-title{
   font-size:4vh;
