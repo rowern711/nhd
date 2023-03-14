@@ -23,6 +23,7 @@ img, video{
   border-radius: 1.6vh;
   max-height: 75vh;
   box-shadow: 0vh 0vh 1.8vh grey;
+  background:white;
 }
 br{
   user-select:none;
