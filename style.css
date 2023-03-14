@@ -229,12 +229,13 @@ max-height: none;
   .row{
 	display:block;
   }
-  .sticky{
+  .sticky .nav{
 	position:static;
   }
   .sticky + #info-wrapper{
 	margin-top:0vh;
   }
+
   .row > .cell {
 	  padding-left:2.2vh!important;
 	  padding-right:2.2vh!important;
