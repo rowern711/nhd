@@ -1,4 +1,4 @@
-#header-wrapper, .img-caption, .quote, img{user-select:none;}
+#header-wrapper, .img-caption, .quote, img, table, iframe{user-select:none;}
 body{
   -ms-overflow-style:none;
   scrollbar-width:none;
