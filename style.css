@@ -89,14 +89,14 @@ br{
   width:100%;
   box-shadow:0vh 0.2vh 0.5vh #8c8c8c;
 }
-.section-border {
+/*..section-border {
     border: 0.2vh solid #495057;
     padding: 2vh;
     border-radius: 4vh;
     padding-left: 4vh;
     padding-right: 4vh;
     box-shadow: 0vh 0vh 1vh grey;
-}
+}*/
 .nav-link{
   width:calc(100%/7);
   opacity:1;
