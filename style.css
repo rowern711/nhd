@@ -47,7 +47,7 @@ br{
   box-shadow:0vh 0.2vh 1vh #8c8c8c;
 }
 .sticky + #info-wrapper{
-  margin-top:9.7vh;
+      margin-top: 9.3vh;
 }
 #page-wrapper{
   position:absolute;
