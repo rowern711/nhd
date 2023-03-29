@@ -25,6 +25,21 @@ img, video{
   box-shadow: 0vh 0vh 1.8vh grey;
   background:white;
 }
+img, video{
+  transition:1s ease;
+}
+video:hover{
+  -webkit-transform:scale(1.03);
+  -ms-transform:scale(1.03);
+  transform:scale(1.03);
+  transition:1s ease;
+}
+img:hover{
+  -webkit-transform:scale(1.06);
+  -ms-transform:scale(1.06);
+  transform:scale(1.06);
+  transition:1s ease;
+}
 br{
   user-select:none;
 }
