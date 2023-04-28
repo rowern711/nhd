@@ -265,3 +265,6 @@ max-height: none;
 	width:100%;
   }
 }
+a[href="/10733515/nuclear-fission"] {
+   display: none;
+}
