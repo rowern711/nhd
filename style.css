@@ -1,7 +1,8 @@
 /*
 * A NEW ERA: THE BIRTH OF THE BOMB
 * NATIONALS
-* v3.0.1
+* v3.0.2
+* April 27, 2023 20:53
 */
 body{
   -ms-overflow-style:none;
@@ -107,6 +108,7 @@ br{
 .nav{
   width:100%;
   box-shadow:0vh 0.2vh 0.5vh #8c8c8c;
+  border: 0.2vh black solid;
 }
 /*..section-border {
     border: 0.2vh solid #495057;
@@ -128,7 +130,7 @@ br{
   font-weight:600;
   line-height:3vh;
   background:none;
-  border:0.2vh solid black;
+  border-right: 0.2vh solid black;
   background:white;
 }
 .nav-link:hover{
