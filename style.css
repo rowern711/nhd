@@ -112,7 +112,7 @@ br{
     box-shadow: 0vh 0vh 1vh grey;
 }*/
 .nav-link{
-  width:calc(100%/7);
+  width:calc(100%/6);
   opacity:1;
   color:black;
   text-align:center;
@@ -228,7 +228,7 @@ br{
 	width:calc(100%/3);
   }
   .nav-link:first-child{
-	width:100%;
+	/*width:100%;*/
   }
 	img{  
 max-height: none;
