@@ -4,6 +4,7 @@
 * v3.0.2
 * April 27, 2023 20:53
 */
+img, .img-caption, video, .quote, audio, #header-wrapper {user-select:none;}
 body{
   -ms-overflow-style:none;
   scrollbar-width:none;
