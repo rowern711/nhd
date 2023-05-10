@@ -264,8 +264,8 @@ max-height: none;
   }
 
   .row > .cell {
-	  padding-left:2.2vh!important;
-	  padding-right:2.2vh!important;
+	  padding-left:2.2vh;
+	  padding-right:2.2vh;
 	}
 }
 @media only screen and (max-width: 230px){
