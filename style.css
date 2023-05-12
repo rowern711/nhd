@@ -278,8 +278,8 @@ a[href="/10733515/nuclear-fission"] {
          padding-right:1vh;
     }
      .row{
-        /* display:block;
-         */
+         display:block;
+         
     }
      .sticky .nav{
          position:static;
