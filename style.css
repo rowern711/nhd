@@ -246,7 +246,7 @@ br{
     width:100% !important;
    }
    img{  
-     max-height: none;
+	   max-height: none;}
 	   .nav-link{border-bottom: 0.2vh solid black;
     border-right: 0.2vh solid black;}
     }
