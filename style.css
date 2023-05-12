@@ -238,15 +238,17 @@ br{
   margin-top:1.3vh;
   color:transparent;
 }
-@media only screen and (max-width: 940px){
+@media only screen and (max-width: 9455x){
   .nav-link{
-	width:calc(100%/3);
+	width:calc(100%/3) !important;
   }
   .nav-link:first-child{
-    width:100%;
+    width:100% !important;
    }
    img{  
      max-height: none;
+	   .nav-link{border-bottom: 0.2vh solid black;
+    border-right: 0.2vh solid black;}
     }
 @media only screen and (max-width: 745px){
   .nav-link{
