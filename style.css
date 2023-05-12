@@ -141,6 +141,9 @@ br{
 .nav-link:nth-child(2) {
     display: none;
 }
+.nav-link:first-child {
+    width: calc(100%/7);
+}
 .nav-link:hover{
   background:#e6e6e6;
   color:#000000;
