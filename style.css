@@ -238,7 +238,7 @@ br{
   margin-top:1.3vh;
   color:transparent;
 }
-@media only screen and (max-width: 9455x){
+@media only screen and (max-width: 945px){
   .nav-link{
 	width:calc(100%/3) !important;
   }
