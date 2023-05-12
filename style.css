@@ -238,62 +238,64 @@ br{
   margin-top:1.3vh;
   color:transparent;
 }
-@media only screen and (max-width: 945px){
-  .nav-link{
-	width:calc(100%/3) !important;
-  }
-  .nav-link:first-child{
-    width:100% !important;
-   }
-   img{
-	   max-height: none;
-	}
-.nav-link{border-bottom: 0.2vh solid black;
-    border-right: 0.2vh solid black;}
-    }
-@media only screen and (max-width: 745px){
-.nav-link{
-	width:calc(100%/2) !important;
-  }
-  .nav-link:first-child{
-    width:100% !important;
-   }
-   img{
-	   max-height: none;
-	}
-.nav-link{border-bottom: 0.2vh solid black;
-    border-right: 0.2vh solid black;}
-   
-
-#info-wrapper{
-	width:95%;
-	margin-left:auto;
-	margin-right:auto;
-	padding-left:1vh;
-	padding-right:1vh;
-  }
-  .row{
-	display:block;
-  }
-  .sticky .nav{
-	position:static;
-  }
-  .sticky + #info-wrapper{
-	margin-top:0vh;
-  }
-
-  .row > .cell {
-	  padding-left:2.2vh;
-	  padding-right:2.2vh;
-	}
-}
-@media only screen and (max-width: 260px){
-  .nav-link{
-	width:100%;
-	  border-bottom:0.2vh solid black;
-	  border-right: 0vh solid black;
-  }
-}
 a[href="/10733515/nuclear-fission"] {
    display: none;
+}
+@media only screen and (max-width: 945px){
+     .nav-link{
+         width:calc(100%/3) !important;
+    }
+     .nav-link:first-child{
+         width:100% !important;
+    }
+     img{
+         max-height: none;
+    }
+     .nav-link{
+         border-bottom: 0.2vh solid black;
+         border-right: 0.2vh solid black;
+    }
+}
+ @media only screen and (max-width: 745px){
+     .nav-link{
+         width:calc(100%/2) !important;
+    }
+     .nav-link:first-child{
+         width:100% !important;
+    }
+     img{
+         max-height: none;
+    }
+     .nav-link{
+        border-bottom: 0.2vh solid black;
+         border-right: 0.2vh solid black;
+    }
+     #info-wrapper{
+         width:95%;
+         margin-left:auto;
+         margin-right:auto;
+         padding-left:1vh;
+         padding-right:1vh;
+    }
+     .row{
+        /* display:block;
+         */
+    }
+     .sticky .nav{
+         position:static;
+    }
+     .sticky + #info-wrapper{
+         margin-top:0vh;
+    }
+     .row > .cell {
+         padding-left:2.2vh;
+         padding-right:2.2vh;
+    }
+}
+ @media only screen and (max-width: 260px){
+     .nav-link{
+         width:100%;
+         border-bottom:0.2vh solid black;
+         border-right: 0vh solid black;
+    }
 }
