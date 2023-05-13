@@ -4,7 +4,15 @@
 * v4.1.0
 * May 12, 2023 9:20
 */
-img, .img-caption, video, .quote, audio, #header-wrapper {user-select:none;}
+    width: 100%;
+    border-radius: 1.6vh;
+    max-height: 85vh;
+    box-shadow: 0vh 0vh 1.8vh grey;
+    background: transparent;
+    /* width: fit-content; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    object-fit: fill;, .img-caption, video, .quote, audio, #header-wrapper {user-select:none;}
 body{
   -ms-overflow-style:none;
   scrollbar-width:none;
@@ -25,11 +33,12 @@ p{
   text-shadow: grey 0vh 0vh 0.01vh;
 }
 img, video{
-  width: 100%;
-  border-radius: 1.6vh;
-  max-height: 75vh;
-  box-shadow: 0vh 0vh 1.8vh grey;
-  background:white;
+    width: 100%;
+    border-radius: 1.6vh;
+    max-height: 85vh;
+    box-shadow: 0vh 0vh 1.8vh grey;
+    background: transparent;
+    object-fit: fill;
 }
 img, video{
   transition:1s ease;
