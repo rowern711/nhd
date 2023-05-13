@@ -287,6 +287,8 @@ a[href="/10733515/nuclear-fission"] {
     }
      .sticky + #info-wrapper{
          margin-top:0vh;
+       margin-top:3vh;
+       
     }
      .row > .cell {
          padding-left:2.2vh;
