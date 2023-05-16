@@ -242,13 +242,13 @@ br{
 a[href="/10733515/nuclear-fission"] {
    display: none;
 }
-@media only screen and (max-width: 945px){
+@media only screen and (max-width: 1100px){
      .nav-link{
          width:calc(100%/3) !important;
     }
-    /*.nav-link:first-child{
+    .nav-link:first-child{
          width:100% !important;
-    }*/
+    }
      img{
          max-height: none;
     }
@@ -257,13 +257,13 @@ a[href="/10733515/nuclear-fission"] {
          border-right: 0.2vh solid black;
     }
 }
- @media only screen and (max-width: 745px){
+ @media only screen and (max-width: 500px){
      .nav-link{
          width:calc(100%/2) !important;
     }
-     /*.nav-link:first-child{
+     .nav-link:first-child{
          width:100% !important;
-    }*/
+    }
      img{
          max-height: none;
     }
@@ -295,7 +295,7 @@ a[href="/10733515/nuclear-fission"] {
          padding-right:0vh;
     }
 }
- @media only screen and (max-width: 260px){
+ @media only screen and (max-width: 350px){
      .nav-link{
          width:100% !important;
          border-bottom:0.2vh solid black;
