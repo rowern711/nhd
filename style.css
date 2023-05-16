@@ -128,7 +128,7 @@ br{
     box-shadow: 0vh 0vh 1vh grey;
 }*/
 .nav-link{
-  width:calc(100%/7);
+  width:calc(100%/6);
   opacity:1;
   color:black;
   text-align:center;
@@ -169,10 +169,10 @@ br{
   padding:0px!important;
 }
 .img-caption{
-    text-align: center;
-    font-size: 2vh;
-    margin-top: 1.3vh;
-    font-weight: bold;
+  text-align: center;
+  font-size: 2vh;
+  margin-top: 1.3vh;
+  font-weight: bold;
 }
 .row{
   display:flex;
@@ -249,9 +249,9 @@ a[href="/10733515/nuclear-fission"] {
      .nav-link{
          width:calc(100%/3) !important;
     }
-     .nav-link:first-child{
+    /*.nav-link:first-child{
          width:100% !important;
-    }
+    }*/
      img{
          max-height: none;
     }
@@ -264,9 +264,9 @@ a[href="/10733515/nuclear-fission"] {
      .nav-link{
          width:calc(100%/2) !important;
     }
-     .nav-link:first-child{
+     /*.nav-link:first-child{
          width:100% !important;
-    }
+    }*/
      img{
          max-height: none;
     }
@@ -290,17 +290,17 @@ a[href="/10733515/nuclear-fission"] {
     }
      .sticky + #info-wrapper{
          margin-top:0vh;
-       margin-top:3vh;
+         margin-top:3vh;
        
     }
      .row > .cell {
-         padding-left:2.2vh;
-         padding-right:2.2vh;
+         padding-left:0vh;
+         padding-right:0vh;
     }
 }
  @media only screen and (max-width: 260px){
      .nav-link{
-         width:100%;
+         width:100% !important;
          border-bottom:0.2vh solid black;
          border-right: 0vh solid black;
     }
