@@ -142,9 +142,6 @@ br{
   border-right: 0.2vh solid black;
   background:white;
 }
-.nav-link:nth-child(2) {
-    display: none;
-}
 .nav-link:hover{
   background:#e6e6e6;
   color:#000000;
